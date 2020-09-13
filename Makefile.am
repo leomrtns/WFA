@@ -65,4 +65,5 @@ libwfa_la_SOURCES = $(common_src) $(common_headers)
 
 otherincludedir = $(includedir)/wfa  ## all headers are installed in this subdir
 otherinclude_HEADERS = $(common_headers)
+
 # more info: https://autotools.io/automake/nonrecursive.html
