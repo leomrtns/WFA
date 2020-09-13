@@ -262,10 +262,8 @@ void benchmark_print_alignment(
 /*
  * Stats
  */
-void benchmark_print_stats(
-    FILE* const stream,
-    align_input_t* const align_input,
-    const bool print_wf_stats) {
+void benchmark_print_stats (FILE* const stream, align_input_t* const align_input)
+{
   // General stats
   fprintf(stream,"[Accuracy]\n");
   fprintf(stream," => Alignments.Correct     ");

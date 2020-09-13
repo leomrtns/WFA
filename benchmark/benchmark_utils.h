@@ -123,7 +123,6 @@ void benchmark_print_alignment(
  */
 void benchmark_print_stats(
     FILE* const stream,
-    align_input_t* const align_input,
-    const bool print_wf_stats);
+    align_input_t* const align_input);
 
 #endif /* BENCHMARK_UTILS_H_ */
